@@ -40,6 +40,14 @@ input[type=submit], input[type=reset], button{
 	margin-left: -250px;
 	background-color: #fff;
 }
+.member {
+  width: 700px;
+  position: fixed;
+  left: 50%;
+  top: 50px;
+  margin-left: -350px;
+  background-color: #fff;
+}
 body {
 	background-color: #b3b3b3;
 }
@@ -62,4 +70,20 @@ select#title {
    text-overflow: ellipsis;
    white-space: nowrap;
    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #595959;
+    color: white;
 }
